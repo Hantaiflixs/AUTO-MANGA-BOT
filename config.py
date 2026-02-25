@@ -11,7 +11,7 @@ import os
 
 class Config:
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    USER_ID = int(os.getenv("USER_ID", 6366880905""))
+    USER_ID = int(os.getenv("USER_ID", "6366880905"))
     API_ID = int(os.getenv("API_ID", "24579269"))
     API_HASH = os.getenv("API_HASH", "99dff6c471774c2be6ff3d4623a6c0c0")
     DB_NAME = os.getenv("DB_NAME", "luxeflix")
